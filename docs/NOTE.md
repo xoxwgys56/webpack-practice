@@ -7,3 +7,18 @@
 - 사용하지 않는 코드 관리
 - Dynamic loading & Lazy loading 미지원
 
+## 4가지 주요 속성
+
+- entry
+- output
+- loader
+- plugin
+
+### Entry
+
+```js
+// webpack.config.js
+module.exports = {
+    entry: './src/index.js'
+}
+```
