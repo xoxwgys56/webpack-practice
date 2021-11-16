@@ -1,0 +1,23 @@
+{
+  "name": "mode",
+  "version": "1.0.0",
+  "description": "webpack version 4부터 `mode`가  추가됨.   기본 값은 `production`.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "npx webpack --env mode=development --mode=development",
+    "prod": "npm run build --env mode=production --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "process": "^0.11.10"
+  }
+}
