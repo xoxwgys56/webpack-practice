@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & Libs with code splitting</title>
+</head>
+<body>
+    <header>
+        <h1>CSS code splitting</h1>
+    </header>
+    <div>
+        <!-- webpack build output 잘로드되면 아래 <p> 텍스트 색이 파란색으로 표시됨 -->
+        <p>
+            If this line looks "blue" means succeed bundling with webpack!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aut quos dolores modi laudantium, dolorem neque, explicabo veritatis quisquam doloremque, repellat velit consequuntur architecto dolore. Inventore rem cupiditate beatae dolorum!
+        </p>
+    </div>
+    <!-- script for load "webpack build output" -->
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>

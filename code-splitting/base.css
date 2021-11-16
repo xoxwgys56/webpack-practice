@@ -1,0 +1,13 @@
+h1 {
+    background-color: antiquewhite;
+    margin: auto 0;
+    padding: 2vmax;
+    border-radius: 2vmax;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    background-color: cadetblue;
+    font-size: 2.5vw;
+}
