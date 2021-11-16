@@ -1,5 +1,7 @@
 # tree shaking
 
+follow [tree shaking](https://webpack.kr/guides/tree-shaking/)
+
 ## side-effect
 
 ### package.json
